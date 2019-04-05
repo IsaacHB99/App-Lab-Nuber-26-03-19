@@ -76,4 +76,5 @@ class MainActivity : AppCompatActivity() {
 data class Salad(
     val name: String = "",
     val description: String = "",
-    var uuid: String = "")
+    var uuid: String = ""
+    var pres: String = "10*uuid")
